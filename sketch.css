@@ -1,0 +1,22 @@
+.innerDiv {
+    
+    display:flex;
+    background-color: lavender;
+    flex-direction: row;
+    flex-wrap: wrap;
+    min-height: 20px;
+    min-width: 1.5625%;
+
+}
+.mainDiv {
+
+    display:flex;
+    flex-wrap: wrap;
+    padding-left: 420px;
+    padding-right: 420px;
+}
+
+.innerDiv:hover{
+
+    background-color: purple;
+}
