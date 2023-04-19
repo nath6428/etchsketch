@@ -8,11 +8,9 @@ function divs(){
         
         const div = document.createElement('div');
         div.setAttribute('class', 'innerDiv')
-        div.setAttribute('draggable', false)
-        div.addEventListener('mouseover', () => {div.style.backgroundColor = 'purple'})
+        div.setAttribute('oncontextmenu', 'return false;')
+        div.addEventListener('click', () => {div.style.backgroundColor = 'purple'})
         MainDiv.appendChild(div)
-        console.log(i) 
-
     }
 }
 divs()
